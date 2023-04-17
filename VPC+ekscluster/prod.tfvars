@@ -5,7 +5,7 @@ env         = "uat"
 
 #[eks]
 
-instance_types = "t3.xlarge"
+instance_types = "t2.micro"
 desired_size_asg = "2"
 max_size_asg     = "4"
 min_size_asg     = "1"
